@@ -1,0 +1,1 @@
+<view><view class="one"><image src="../../static/sure.png"></image><view>转赠成功</view><view class="font-30" style="color:#999999;margin-top:35rpx;">转赠积分:<label style="margin-left:10rpx;color:#333333;" class="_span">{{score}}</label></view></view><view data-event-opts="{{[['tap',[['examine']]]]}}" class="check" bindtap="__e">返回积分商城</view></view>

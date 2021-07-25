@@ -1,0 +1,634 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  height: 100%;
+}
+.shopHome {
+  padding: 170rpx 0 100rpx;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.shopHome .addGoods {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 98rpx;
+  line-height: 98rpx;
+  background: #ffffff;
+  -webkit-box-shadow: 0px -1rpx 1rpx 0px rgba(102, 102, 102, 0.19);
+          box-shadow: 0px -1rpx 1rpx 0px rgba(102, 102, 102, 0.19);
+  position: relative;
+  z-index: 333334;
+}
+.shopHome .addGoods .carImg {
+  width: 103rpx;
+  height: 103rpx;
+  position: absolute;
+  top: -20rpx;
+  left: 30rpx;
+}
+.shopHome .addGoods .totalNum {
+  width: 35rpx;
+  height: 35rpx;
+  line-height: 35rpx;
+  text-align: center;
+  color: #fff;
+  background: #333333;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  position: absolute;
+  top: -20rpx;
+  left: 100rpx;
+  font-size: 18rpx;
+  font-family: PingFang SC;
+}
+.shopHome .addGoods .word {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #7a7a7a;
+  margin-left: 150rpx;
+}
+.shopHome .addGoods .word .price {
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #ff3f3f;
+}
+.shopHome .addGoods .word .price1 {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: #999999;
+  margin-left: 10rpx;
+}
+.shopHome .addGoods .account {
+  width: 160rpx;
+  height: 60rpx;
+  background: -webkit-linear-gradient(60deg, #f6281b, #ff5f53);
+  background: linear-gradient(30deg, #f6281b, #ff5f53);
+  -webkit-border-radius: 30rpx;
+          border-radius: 30rpx;
+  color: #fff;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  position: absolute;
+  right: 30rpx;
+  top: 20rpx;
+}
+.shopHome .addGoods .account1 {
+  width: 160rpx;
+  height: 60rpx;
+  background: -webkit-gradient(linear, right top, left top, from(#c6c6c6), to(#e8e8e8));
+  background: -webkit-linear-gradient(right, #c6c6c6, #e8e8e8);
+  background: linear-gradient(270deg, #c6c6c6, #e8e8e8);
+  -webkit-box-shadow: 0px -1px 1px 0px rgba(102, 102, 102, 0.19);
+          box-shadow: 0px -1px 1px 0px rgba(102, 102, 102, 0.19);
+  -webkit-border-radius: 30rpx;
+          border-radius: 30rpx;
+  color: #fff;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  position: absolute;
+  right: 30rpx;
+  top: 20rpx;
+}
+.shopHome .topTab {
+  width: 100%;
+  height: 210rpx;
+  background-color: #f6281b;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-top: 20rpx;
+  z-index: 333;
+}
+.shopHome .topTab .back {
+  width: 100rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  position: absolute;
+  top: 20rpx;
+  left: 0;
+}
+.shopHome .topTab .back image {
+  width: 18px;
+  height: 18px;
+  margin-top: 12rpx;
+}
+.shopHome .topTab .ipt {
+  width: 612rpx;
+  height: 60rpx;
+  background: #ffffff;
+  -webkit-border-radius: 30rpx;
+          border-radius: 30rpx;
+  margin-left: 108rpx;
+  position: relative;
+}
+.shopHome .topTab .ipt .search {
+  width: 80rpx;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+.shopHome .topTab .ipt .search image {
+  width: 32rpx;
+  height: 32rpx;
+  margin-top: 12rpx;
+}
+.shopHome .topTab .ipt input {
+  width: 100%;
+  height: 100%;
+  padding-left: 80rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.shopHome .content {
+  background: #ffffff;
+  -webkit-border-radius: 20rpx 10rpx 0px 0px;
+          border-radius: 20rpx 10rpx 0px 0px;
+  padding-top: 20rpx;
+  position: relative;
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  z-index: 333;
+}
+.shopHome .content .collect {
+  width: 118rpx;
+  height: 47rpx;
+  line-height: 47rpx;
+  background: #ffffff;
+  border: 1px solid #fd484f;
+  -webkit-border-radius: 24px;
+          border-radius: 24px;
+  position: absolute;
+  right: 30rpx;
+  top: 30rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #fd484f;
+}
+.shopHome .content .collect image {
+  width: 26rpx;
+  height: 26rpx;
+  vertical-align: middle;
+  margin: 0px 10rpx 0 20rpx;
+}
+.shopHome .content .collect1 {
+  width: 118rpx;
+  height: 47rpx;
+  line-height: 47rpx;
+  text-align: center;
+  background: #ffffff;
+  border: 1px solid #aaa;
+  -webkit-border-radius: 24px;
+          border-radius: 24px;
+  position: absolute;
+  right: 30rpx;
+  top: 30rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #aaa;
+}
+.shopHome .content .refuse {
+  position: absolute;
+  top: -48rpx;
+  left: 30rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.shopHome .content .refuse .enemy {
+  width: 140rpx;
+  height: 30rpx;
+  background: RGBA(253, 212, 209, 1);
+  -webkit-border-radius: 0px 0px 8rpx 8rpx;
+          border-radius: 0px 0px 8rpx 8rpx;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #F6281B;
+  text-align: center;
+  line-height: 30rpx;
+}
+.shopHome .content .refuse .shopImg {
+  width: 140rpx;
+  height: 140rpx;
+  -webkit-border-radius: 8rpx;
+          border-radius: 8rpx;
+}
+.shopHome .content .shopTitle {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  margin-left: 190rpx;
+  margin-right: 150rpx;
+}
+.shopHome .content .shopTitle image {
+  width: 30rpx;
+  height: 30rpx;
+  vertical-align: middle;
+  margin-left: 20rpx;
+}
+.shopHome .content .shopTip {
+  margin-left: 190rpx;
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999;
+}
+.shopHome .content .shopTip text {
+  margin-left: 20rpx;
+}
+.shopHome .content .address {
+  line-height: 30rpx;
+  padding: 10rpx 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.shopHome .content .address image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+  vertical-align: middle;
+}
+.shopHome .content .address .addr {
+  display: inline-block;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333;
+}
+.shopHome .content .address .btn {
+  display: inline-block;
+  width: 111rpx;
+  height: 36rpx;
+  line-height: 36rpx;
+  text-align: center;
+  background: #f0281b;
+  -webkit-border-radius: 18rpx;
+          border-radius: 18rpx;
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #ffffff;
+  margin-left: 20rpx;
+}
+.shopHome .content .discount {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding: 0 30rpx;
+}
+.shopHome .content .discount .box {
+  width: 200rpx;
+  height: 82rpx;
+  text-align: center;
+  position: relative;
+  font-size: 16rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 10rpx;
+  margin-right: 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.shopHome .content .discount .coupon {
+  background: url(data:image/png;base64,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) no-repeat;
+  background-size: 100% 100%;
+  color: #FD4950;
+}
+.shopHome .content .discount .coupon1 {
+  background: url(data:image/png;base64,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) no-repeat;
+  background-size: 100% 100%;
+  color: #Ffff;
+}
+.shopHome .content .tabs {
+  height: 90rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 0 30rpx;
+}
+.shopHome .content .tabs .tab {
+  width: 150rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-family: PingFang SC;
+  color: #ffffff;
+  position: relative;
+  font-size: 30rpx;
+}
+.shopHome .content .tabs .tab .txt1 {
+  color: #999;
+  font-weight: 400;
+}
+.shopHome .content .tabs .tab .txt2 {
+  color: #333;
+  font-weight: bold;
+}
+.shopHome .content .tabs .tab .line {
+  width: 54rpx;
+  height: 3rpx;
+  background: #fc4950;
+  -webkit-border-radius: 2rpx;
+          border-radius: 2rpx;
+  position: absolute;
+  bottom: 30rpx;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.shopHome .content .classify {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  overflow-y: auto;
+}
+.shopHome .content .classify .classify_left {
+  width: 200rpx;
+  height: 100%;
+  background-color: #f5f5f5;
+}
+.shopHome .content .classify .classify_left .style {
+  height: 90rpx !important;
+  line-height: 90rpx;
+  height: 90rpx;
+  text-align: center;
+  font-size: 26rpx;
+  font-weight: bold;
+  background-color: #fff;
+  border-left: 4rpx solid #F5281C;
+}
+.shopHome .content .classify .classify_left .style1 {
+  height: 90rpx !important;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 26rpx;
+  color: #7a7a7a;
+}
+.shopHome .content .classify .classify_left .innerstyle {
+  height: 90rpx !important;
+  line-height: 90rpx;
+  height: 90rpx;
+  text-align: center;
+  font-size: 26rpx;
+  color: #f75665;
+  font-weight: bold;
+  background-color: #fff;
+}
+.shopHome .content .classify .classify_left .innerstyle1 {
+  height: 90rpx !important;
+  line-height: 90rpx;
+  text-align: center;
+  font-size: 26rpx;
+  color: #7a7a7a;
+}
+.shopHome .content .classify .classify_right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding: 0 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.shopHome .content .classify .classify_right .con {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin-bottom: 40rpx;
+  position: relative;
+}
+.shopHome .content .classify .classify_right .con .img {
+  width: 112rpx;
+  height: 120rpx;
+  margin-right: 27rpx;
+}
+.shopHome .content .classify .classify_right .con .img image {
+  width: 100%;
+  height: 100%;
+}
+.shopHome .content .classify .classify_right .con .right {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  border-bottom: 1px solid #f5f5f5;
+}
+.shopHome .content .classify .classify_right .con .right .name {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #222222;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+.shopHome .content .classify .classify_right .con .right .rule {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+}
+.shopHome .content .classify .classify_right .con .right .price {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #ff3f3f;
+  margin-top: 10rpx;
+}
+.shopHome .content .classify .classify_right .con .right .price1 {
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999;
+  text-decoration: line-through;
+  margin: 4rpx 0 15rpx 0;
+}
+.shopHome .content .classify .classify_right .con .addShop {
+  position: absolute;
+  bottom: 9rpx;
+  right: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.shopHome .content .classify .classify_right .con .addShop .num {
+  height: 38rpx;
+  line-height: 38rpx;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  margin: 0 20rpx;
+}
+.shopHome .content .classify .classify_right .con .addShop .desc {
+  width: 38rpx;
+  height: 38rpx;
+}
+.shopHome .content .classify .classify_right .con .addShop .desc image {
+  width: 38rpx;
+  height: 38rpx;
+}
+.shopHome .content .classify .classify_right .con .addShop .choose {
+  width: 90rpx;
+  height: 40rpx;
+  text-align: center;
+  line-height: 40rpx;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  background: #f6281b;
+  color: #fff;
+  font-size: 22rpx;
+  position: relative;
+}
+.shopHome .content .classify .classify_right .con .addShop .choose .number {
+  position: absolute;
+  right: -20rpx;
+  top: -15rpx;
+  width: 32rpx;
+  height: 32rpx;
+  line-height: 32rpx;
+  text-align: center;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  background-color: rgba(51, 51, 51, 0.8);
+  color: #fff;
+}
+.shopHome .content .common_goods {
+  padding: 20rpx 29rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.shopHome .content .common_goods .common_con {
+  width: 330rpx;
+  padding-bottom: 20rpx;
+  background: white;
+  border: 1rpx solid #eee;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  margin-bottom: 30rpx;
+  overflow: hidden;
+  position: relative;
+}
+.shopHome .content .common_goods .common_con image {
+  width: 330rpx;
+  height: 330rpx;
+  -webkit-border-radius: 10rpx 10rpx 0 0;
+          border-radius: 10rpx 10rpx 0 0;
+}
+.shopHome .content .common_goods .common_con .name {
+  padding: 0 10rpx;
+  margin: 10rpx 0;
+  height: 70rpx;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.shopHome .content .common_goods .common_con .discount {
+  padding: 0 10rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.shopHome .content .common_goods .common_con .discount .coupon {
+  width: 130rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFYAAAAbCAYAAADmkHhFAAACf0lEQVRoQ+2aPUhbURTHfzcSA/ED6l7o1i5CcQupeYvaQq0O1UWIiYuEdpPqqlGK1EHwA+sgKDhqhFJKqWBIYjc/IK7aoWOGZjBERTGnvFRto/Ujz7e9++Z7/ofzu5fz7jnnKvH7H1NR8R6lngPV6K98AiIFlNpF5COp1JSCgpKmpiyRyAOam6G2tnxRbQGnp7C3B9PTsLMzo1Kpt0qWloSODo3HDgIHBxAKCZnMUyW5nFCtM4AdXIsaU1OwvPxOiYjYJqqFYGEB5ueHlCQSgs8HlZUaix0E5uZgcXFIiWF8o66uiWDQRXs7uFx2yDtPI5OB2VlIJrMUChFlEpBAoB6Xa4aGhmcMD0NVlfPA3CfizU0YHDwhnx/F4xlTq6v5ItgiXKjAMCapr3/D+Di43fdx5RzbdBr6+/c5OXmpEonv54FfgD2D68IwPhEOtxIOOweO1UiPjiAYNK9Xr9T6+pd/ZUrAnqWFh3i9P4jF3Hi9Vl06w25lBSYmYiqVulIIXAFbhGsYXxkZeUFjozMAWY2yrw/S6TYVj3++LHEd2A/09g7Q1WXVpTPsOjshm32k4vGfGqydW24BrE4Fd9kAMxVsb7epZPL2VCCBgP553QWqucb8eU1Orqhk8vWNqUDgz3UrFGqlp+eu8s5dd3gI3d03X7d0gWDxfJgFwsDAPsfHVwuEkpI2GkW3EcuEvLEB0egxudwo+fyY2to60E2YMhleu/xvE+YXIhEla2uC3w8ej10unK1z0TbUjW57D8JFo1uPZuwFa45mYrE+PUy0E2vJMPF8/N3SAjU1drpxjlahALu7l8bfPt8T3G7zwUaLfrBh8Sz878GGRSltdguB33iVCOJs/RlPAAAAAElFTkSuQmCC) no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  font-size: 16rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #ff3f3f;
+  margin-bottom: 10rpx;
+  margin-right: 10rpx;
+}
+.shopHome .content .common_goods .common_con .price {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #ff3f3f;
+  margin-left: 16rpx;
+}
+.shopHome .content .common_goods .common_con .price text {
+  margin-left: 20rpx;
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  text-decoration: line-through;
+}
+

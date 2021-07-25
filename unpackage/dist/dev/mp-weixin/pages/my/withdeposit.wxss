@@ -1,0 +1,59 @@
+
+page {
+		background-color: #F5F5F5;
+}
+.txt{
+	width: 748rpx;
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: #999999;
+	padding: 30rpx;
+}
+.car {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: #333333;
+	padding: 30rpx;
+	background-color: #FFFFFF;
+	margin-bottom: 20rpx;
+}
+.car image {
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.car .img1 image {
+	width: 44rpx;
+	height: 44rpx;
+	margin-right: 20rpx;
+}
+.car .img2 {
+	width: 36rpx;
+	height: 36rpx;
+}
+.btn {
+	width: 690rpx;
+	height: 90rpx;
+	background: #FC4950;
+	-webkit-border-radius: 45rpx;
+	        border-radius: 45rpx;
+	font-size: 36rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #F5F5F5;
+	line-height: 90rpx;
+	text-align: center;
+	margin: 400rpx auto;
+}
+

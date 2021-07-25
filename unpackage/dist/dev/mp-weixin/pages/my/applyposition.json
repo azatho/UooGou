@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "申请管理",
+  "usingComponents": {
+    "uni-steps": "/components/uni-steps/uni-steps"
+  }
+}

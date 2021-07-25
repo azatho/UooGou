@@ -1,0 +1,99 @@
+
+page{
+	background-color: #F5F5F5;
+}
+.tac {
+	text-align: center;
+	margin-top: 150rpx;
+	font-size: 30rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #666666;
+}
+.hang {
+	width: 640rpx;
+	height: 100rpx;
+	background: #FFFFFF;
+	-webkit-border-radius: 10rpx;
+	        border-radius: 10rpx;
+	line-height: 100rpx;
+	text-align: center;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin: 55rpx;
+	padding: 0 20rpx 0 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	position: relative;
+}
+.hang .left{
+	font-size: 30rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #FD635E;
+}
+.hang .left image {
+	width: 36rpx;
+	height: 36rpx;
+	vertical-align: middle;
+	margin-right: 40rpx;
+}
+.hang input {
+	width: 400rpx;
+	height: 100rpx;
+	padding-top: 30rpx;
+	padding-bottom: 30rpx;
+	background: #FFFFFF;
+	text-align: left;
+	padding-left: 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.hang .line {
+	width: 2rpx;
+	height: 60rpx;
+	background: #F5F5F5;
+	margin-top: 20rpx;
+}
+.right .yanzheng {
+	width: 162rpx;
+	height: 42rpx;
+	background: #FFFFFF;
+	border: 1rpx solid #ED5736;
+	-webkit-border-radius: 21rpx;
+	        border-radius: 21rpx;
+	text-align: center;
+	line-height: 42rpx;
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #FD635E;
+	position: absolute;
+	right: 10rpx;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+}
+.btn {
+	width: 640rpx;
+	height: 90rpx;
+	background: #FD635E;
+	-webkit-border-radius: 45rpx;
+	        border-radius: 45rpx;
+	line-height: 90rpx;
+	text-align: center;
+	font-size: 36rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #FFFFFF;
+	margin:200rpx 55rpx 30rpx;
+}
+.text {
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #999999;
+	text-align: center;
+}
+

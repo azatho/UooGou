@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "提现结果",
+  "usingComponents": {
+    "uni-steps": "/components/uni-steps/uni-steps"
+  }
+}

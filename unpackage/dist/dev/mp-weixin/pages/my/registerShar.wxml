@@ -1,0 +1,1 @@
+<view style="height:100%;"><view class="bgc1"><view class="bgc2"><view class="bgc3"><image src="{{qrcode_all}}"></image><view class="txt">扫一扫立即加入</view></view></view></view></view>

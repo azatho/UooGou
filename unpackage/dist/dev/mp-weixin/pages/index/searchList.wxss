@@ -1,0 +1,198 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.noneImg {
+  margin: 200rpx 0 0;
+  text-align: center;
+}
+.noneImg image {
+  width: 640rpx;
+  height: 480rpx;
+}
+.status_bar {
+  padding: 15rpx 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.status_bar .left_img {
+  width: 50rpx;
+  height: 70rpx;
+}
+.status_bar .left_img image {
+  margin-top: 19rpx;
+  width: 18rpx;
+  height: 32rpx;
+}
+.status_bar .input {
+  width: 410rpx;
+  height: 70rpx;
+  padding: 0 70rpx 0 60rpx;
+  line-height: 70rpx;
+  height: 70rpx;
+  background: #eef1f4;
+  -webkit-border-radius: 35rpx;
+          border-radius: 35rpx;
+  position: relative;
+}
+.status_bar .input input {
+  height: 70rpx !important;
+  line-height: 70rpx !important;
+}
+.status_bar .input .search_img {
+  width: 30rpx;
+  height: 28rpx;
+  position: absolute;
+  top: 20rpx;
+  left: 25rpx;
+}
+.status_bar .input .del {
+  width: 80rpx;
+  height: 70rpx;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.status_bar .input .del image {
+  width: 30rpx;
+  height: 30rpx;
+  margin: 20rpx  0 0 25rpx;
+}
+.status_bar .searchWord {
+  height: 70rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  text-align: center;
+  line-height: 70rpx;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+}
+.goods_msg {
+  padding: 40rpx 30rpx 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.goods_msg .good_img image {
+  width: 160rpx;
+  height: 160rpx;
+  background: #F5F5F5;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  margin-right: 20rpx;
+}
+.goods_msg .right .title {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: wrap;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.goods_msg .right .tip {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  margin: 8rpx 0 15rpx;
+}
+.goods_msg .right .tip text {
+  margin-right: 30rpx;
+}
+.goods_msg .right .discount {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.goods_msg .right .discount view {
+  width: 150rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  text-align: center;
+  position: relative;
+  font-size: 16rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  margin-bottom: 10rpx;
+  margin-right: 10rpx;
+}
+.goods_msg .right .discount .coupon {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJAAAAAmCAYAAAAr1RLQAAAFSElEQVR4Xu1czW7UMBCeERKlz8Aj8CMOpc/AoqJy7xNwo30QCi0CjluJ9gmQeAcKEqJw4N4LvQESLaKN0WaTrD0eO+P8rTebvbSbtRPH8/mbb2acIGQfNRqtJLDyBBG2FOItAFgFzH8FANS+5P+mf7MvxrFZ+6Jb3pb2dfQrrp2fQG9nHePGgMXQpueafZ+NifQrbof2zeaBmwO9Tz5d+rxpU7jg//4GUN8B4AiSs1e4//5vcetqY+Nmklx7B4D3pjepTaCGkelPHiAZgBMajQWWdp0COIxR2wJScR8DkBygP4Hk30PcPzzFCfMouP5BAd7NsTPrJACSBzQzBhOsfh9DeVlLCKwyhtQXh+t6xmJygIsyUj/ZaHKXXyD5sY5Xo8dPAWDXQhq3CilFcy7M5wYyxtC7FYzWoItKgRvoMi1Xq4OFnsv4jWHkZXFrCNt4Odo8RsA1lqqM1SNgI27SrWMx6iNuTIM+Ktds6uOEgf6kgtn3aQJIlqsTGG3QR+U2nG+L8wmAlHgMoUDy6SPG1TmjI4k7krRhdY7GNIzbFo/JpY+sIEQ70AN9FAYgqoFotOaK2CRCW4vuREbTozOfXvGxmFece1ztoI8KzqkGoDIgGYBhRCYnvgkgWskf5YAPAp9As3GBw5II7XoAooxTNX/UldB2AocI5hJ36GfI7GYMdstWXA8TkfUBZLERmcAqbq22PiKJyCb0UZUxcQvDu8jIZC2ARmoOQJxbYwUkWY0SfSQpQ3Ag4cogugGb1EesQPcsJhcb6UC1GF4c7nTWsHkABekjJiJhIiFaF/PrI0cZRCq0B30UBL72ADToo6khLC3Ur/pauwCqqo98bFFFi1AjckVYSRspi+k1Z9aNLrDQVnABCG9AqbfwC791A6CqQGpTH1khPWfUkkJtSaZclzlszc8pqGMt1KpTQHyEz8efC5MGZaKDvKOnMadzKMi4XBHDPk595BK1NbeALG2hdsI8Cazjy/GJbtluGci4MvlisQ2J1jj3wWmMvOLvzTILt4DQ81cCn6Dm51sY+kKgulJfZJbmbGq15+dRu/jiYIeedX4AqurWBn1kinMdfOycNgQkpdZw7+BTfACqCiSfPmJWtKi+Rvs1yWI0PVAqtF3bZ+akj37CKo7HF/ECyAISmUCLvkn5QaCPDG/gSzIG5YKIQQOz3guzkW1hAGT58mXbyJZNgCgCdexRb8OtRe/COFdt1IIiB1LfC7VK7eJejCJaovFCgdSqPlrSQm10YbwEOJZiI0KpLPQXuYGKT4wsZaE2lkRiFfDofVyJSA4wVthPNAZxPUOhtsQ4aSlDvQYFh92XMuoChwWRS3RmjWN4orbH+mj+icS6oArVR10mIgNDeu/j3CF7ospY10qJkAPGnPoNtPgAaiMRybjIoERkHX2U23JBCrX9AVBIIjLqQi1JkEqBxN0T7Wswk0YzLu1o5eRsNuofgJYqESmIIH0ZeiM1r21+C0hE9hNAVd1al/ooN55Rb6u5Hbe0vuaIQGsASfZoc12hO+/+oUK7zfxRExvZSsCne7OWN7KdYzLaPFaulyvM2/BNX9+VP+KYxxWpuBijdPVn7qZXhdrJyxUebG4D4rOmbRXt+ULZqAxcQYnIeW9kIy6srj5K1E76gqkEVo4B4E60Rm9jYJ0BKSyqYnNBcSYiTwDO7qdDS19xd6W/4q4Ni0V6zlAg+fQRs6KD8ke6mJ1cJ95E5Ang5fQVd7lZi5dsAmwppW4D4o1ITd7OsCT6iBrYiPY87kmqj3IA1klEGhrNPabgjWyQPs7zFRCPAGcv2fwP1X/UleSn0ZYAAAAASUVORK5CYII=) no-repeat;
+  background-size: 100% 100%;
+  color: #fff;
+}
+.goods_msg .right .discount .coupon1 {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAJoAAAAmCAYAAAA894IZAAAC40lEQVR4Xu2cz0uTcRzHP99ttj1z/0A9nqTUyHSESsdCiYjq0jEqKKIkiGmgx46BB5XAMiSjWN2CAouwRTtKU7BmOJkHDxvhOgSpz55tz/N845ktZF087Hmew+e9w3bY9vnweX1fPL95C/r7kocpWPSrgyTkZZLiGAlSat/hEwT2T0BuEdEaWeKVYuUfiXUq2f8V9pvW1qJKIef8pweigWs3yRc9QSIEz/YPF7/8t8Ha3iZr5SsZz2fITCbSwqBz4fV8TlS3ZAH1SyA20tV06y6IgUDDCFSePCRjcuybYuT7hNZ+MObrPzsRnJptWAMUAoEagdKd62R9mh8SWseh1IEXr3v8vSdBBwQaTsBMLVD56qVFobWrWmg5q+CYrOGMUZCIpF6kUvRIUWgdqlRWc4ACAo4RKB5tIYjmGF4UrhGAaHDBFQIQzRXMaALR4IArBCCaK5jRBKLBAccIyJ8FMuKzZH5OkMxmcNbpGGnGhY33b8m4P6rLHW1aSiMe1oPfcXmDsRBOjG5+mKPyvcGcVZEXItn8cq0HRHOCNtOasrBJpfOndHPrV18ks5neiwGiMZXCibEr4w/ImJmaCGfyw/X1IZoTxJnW1C/2k5Vd7WnO/FiCaEwlcGPsYncrKb+lIjY2dIjmBnGmPYpdraRsQTSmy+/e2Nh1useadSecDLBefveGx+UN91iz74QLtuwVcA+A8e7N7i0obeexlNbLAm5BuQefWyd7N2rEn5GZ/Egyu4ab6twE8GJePCbkBXWGPSEaw0X3YmSI5gV1hj0hGsNF92JkiOYFdYY9d0WzIxGWMopojjBEgJGdJrAnEgEhL07D5lzfXFyg8hU75KVNHfINnBlHbBVnHZybvRpblZgfrgbxaQE11RQbOY4gPueAc6xsB/FVJsfSYSPf+3+06I3b5OvsRrQoRzMaMLN9TFaNFn06TTKZSMtatGitdl1YcicJCjWgL0pwIyBJJyFX6sOS/wC9dJK8Sefm2wAAAABJRU5ErkJggg==) no-repeat;
+  background-size: 100% 100%;
+  color: #ff3b32;
+}
+.goods_msg .right .price {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #ff3f3f;
+}
+.goods_msg .right .price text {
+  margin-left: 20rpx;
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  text-decoration: line-through;
+}
+.shop_msg {
+  width: 690rpx;
+  margin: auto;
+  padding: 0 0 0 180rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-bottom: 2rpx solid #f5f5f5;
+  height: 66rpx;
+  line-height: 66rpx;
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+}
+.shop_msg image {
+  width: 29rpx;
+  height: 29rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+.shop_msg text {
+  margin-left: 20rpx;
+}
+

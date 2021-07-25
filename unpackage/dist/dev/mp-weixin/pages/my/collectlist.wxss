@@ -1,0 +1,10 @@
+
+.bgi {
+	width: 476rpx;
+	height: 372rpx;
+}
+.bgi image {
+	width: 100%;
+	height: 100%;
+}
+

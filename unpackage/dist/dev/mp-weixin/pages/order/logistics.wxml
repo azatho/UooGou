@@ -1,0 +1,1 @@
+<view><view class="bgc"><image src="../../static/wuliu.gif"></image></view><view class="plan"><image src="../../static/wl.png"></image><uni-steps vue-id="733399fd-1" options="{{options}}" direction="column" active="{{active}}" bind:__l="__l"></uni-steps><view data-event-opts="{{[['tap',[['getWuliu']]]]}}" class="btn" bindtap="__e">联系快递员</view></view></view>

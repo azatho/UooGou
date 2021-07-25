@@ -1,0 +1,882 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+page {
+  height: 100%;
+}
+[v-cloak] {
+  display: none;
+}
+.goods {
+  padding-bottom: 90rpx;
+}
+.goods .topBtn {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 90rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  z-index: 999999;
+}
+.goods .topBtn .arrow {
+  width: 120rpx;
+  height: 100%;
+  line-height: 90rpx;
+  text-align: center;
+}
+.goods .topBtn .arrow image {
+  width: 22rpx;
+  height: 37rpx;
+}
+.goods .topBtn .share {
+  width: 120rpx;
+  height: 100%;
+  line-height: 90rpx;
+  text-align: center;
+}
+.goods .topBtn .share image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.goods .banner {
+  height: 750rpx;
+}
+.goods .banner .topImg {
+  width: 100%;
+  position: relative;
+  height: 750rpx;
+}
+.goods .banner .topImg .change {
+  position: absolute;
+  left: 50%;
+  bottom: 30rpx;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  z-index: 33;
+}
+.goods .banner .topImg .change view {
+  width: 90rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  background: rgba(153, 153, 153, 0.3);
+  -webkit-border-radius: 30rpx;
+          border-radius: 30rpx;
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 300;
+  color: white;
+  margin: 0 10rpx;
+}
+.goods .banner .topImg .change .selected {
+  background: #999999;
+}
+.goods .banner .topImg .video {
+  width: 100%;
+  height: 750rpx;
+  position: relative;
+}
+.goods .banner .topImg .video video {
+  width: 100%;
+  height: 100%;
+}
+.goods .banner .topImg .banner_img {
+  width: 100%;
+  height: 750rpx;
+}
+.goods .banner .topImg .banner_img image {
+  width: 100%;
+  height: 750rpx;
+}
+.goods .banner .topImg .total {
+  position: absolute;
+  bottom: 80rpx;
+  right: 30rpx;
+  padding: 0 10rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  text-align: center;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  -webkit-border-radius: 15rpx;
+          border-radius: 15rpx;
+  font-size: 20rpx;
+}
+.goods .goodsTitle {
+  padding: 0 30rpx 30rpx;
+  background-color: #fff;
+}
+.goods .goodsTitle .title {
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333;
+}
+.goods .goodsTitle .title text {
+  display: inline-block;
+  width: 60rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  text-align: center;
+  background: -webkit-linear-gradient(60deg, #fd4950, #ff6f60);
+  background: linear-gradient(30deg, #fd4950, #ff6f60);
+  -webkit-border-radius: 4rpx;
+          border-radius: 4rpx;
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #ffffff;
+  margin-right: 10rpx;
+}
+.goods .goodsTitle .price {
+  margin-top: 20rpx;
+}
+.goods .goodsTitle .price .txt {
+  color: #ff1c1c;
+  font-size: 24rpx;
+}
+.goods .goodsTitle .price .txt1 {
+  font-size: 48rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #ff1c1c;
+}
+.goods .goodsTitle .price .txt2 {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  text-decoration: line-through;
+  color: #999999;
+  margin-left: 10rpx;
+}
+.goods .base_msg {
+  padding: 0 30rpx;
+}
+.goods .base_msg .choose {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 26rpx;
+  font-family: Source Han Sans CN;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+.goods .base_msg .choose .right_img {
+  width: 18rpx;
+}
+.goods .base_msg .choose .right_img image {
+  width: 18rpx;
+  height: 30rpx;
+}
+.goods .base_msg .scroll {
+  height: 122rpx;
+}
+.goods .base_msg .scrolll {
+  height: 242rpx;
+}
+.goods .base_msg .scroll-Y {
+  height: 100%;
+}
+.goods .base_msg .scroll-Y .demo {
+  height: 120rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-top: 2rpx solid #f5f5f5;
+}
+.goods .base_msg .scroll-Y .demo image {
+  width: 68rpx;
+  height: 68rpx;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  margin-top: 10rpx;
+}
+.goods .base_msg .scroll-Y .demo .name {
+  width: 250rpx;
+  margin: 0 10rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.goods .base_msg .scroll-Y .demo .time {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  margin-right: 10rpx;
+}
+.goods .base_msg .scroll-Y .demo .time .num {
+  font-weight: 500;
+  color: #e02e24;
+}
+.goods .base_msg .scroll-Y .demo .time .resetTime {
+  color: #333333;
+}
+.goods .base_msg .scroll-Y .demo .btn {
+  width: 125rpx;
+  height: 55rpx;
+  line-height: 55rpx;
+  text-align: center;
+  background: #fd635e;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+}
+.goods .base_msg .none {
+  border-top: 1rpx solid #f5f5f5;
+  text-align: center;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+  height: 160rpx;
+  line-height: 160rpx;
+}
+.goods .evaluate {
+  padding: 0 30rpx;
+}
+.goods .evaluate .evaluate_tit {
+  margin: 30rpx 0 40rpx;
+  font-size: 30rpx;
+  font-family: Source Han Sans CN;
+  font-weight: 500;
+  color: #333333;
+}
+.goods .evaluate .user_msg {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.goods .evaluate .user_msg .user_left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.goods .evaluate .user_msg .user_left image {
+  width: 60rpx;
+  height: 60rpx;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  margin-right: 20rpx;
+}
+.goods .evaluate .user_msg .user_left .star {
+  width: 22rpx;
+  height: 22rpx;
+  margin: 0 0 0 10rpx;
+}
+.goods .evaluate .user_msg .user_left .label {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+}
+.goods .evaluate .user_msg .time {
+  font-size: 24rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #999999;
+}
+.goods .evaluate .content {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  margin-top: 20rpx;
+  padding-left: 80rpx;
+}
+.goods .evaluate .imgs {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  padding-left: 80rpx;
+}
+.goods .evaluate .imgs image {
+  width: 130rpx;
+  height: 130rpx;
+  margin: 20rpx 10rpx 0;
+}
+.goods .evaluate .lookAll {
+  margin-top: 30rpx;
+  width: 100%;
+  height: 90rpx;
+  text-align: center;
+}
+.goods .evaluate .lookAll text {
+  display: inline-block;
+  width: 150rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+  margin-top: 20rpx;
+  text-align: center;
+  background: #ffffff;
+  border: 1rpx solid #999999;
+  -webkit-border-radius: 25rpx;
+          border-radius: 25rpx;
+  font-size: 24rpx;
+  font-family: Source Han Sans CN;
+  color: #333;
+}
+.goods .shopMsg {
+  padding: 0 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  background-color: #fff;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  height: 80rpx;
+}
+.goods .shopMsg .left {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: bold;
+  color: #333333;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.goods .shopMsg .left .case {
+  width: 38rpx;
+  height: 38rpx;
+  vertical-align: middle;
+  margin-right: 14rpx;
+}
+.goods .shopMsg .left .image {
+  width: 13rpx;
+  height: 26rpx;
+  margin-left: 10rpx;
+}
+.goods .shopMsg .right {
+  height: 80rpx;
+  text-align: right;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.goods .shopMsg .right image {
+  width: 26rpx;
+  height: 26rpx;
+  margin-right: 10rpx;
+}
+.goods .img {
+  width: 100%;
+}
+.goods .img image {
+  width: 100%;
+}
+.goods .addGoods {
+  width: 100%;
+  padding-left: 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 90rpx;
+  background: #ffffff;
+  -webkit-box-shadow: 0px -1rpx 1rpx 0px rgba(102, 102, 102, 0.19);
+          box-shadow: 0px -1rpx 1rpx 0px rgba(102, 102, 102, 0.19);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.goods .addGoods .collect {
+  width: 100rpx;
+  height: 100%;
+  text-align: center;
+  font-size: 20rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+  position: relative;
+}
+.goods .addGoods .collect .img {
+  width: 36rpx;
+  height: 36rpx;
+  margin: 10rpx auto 5rpx;
+}
+.goods .addGoods .collect .img image {
+  width: 100%;
+  height: 100%;
+}
+.goods .addGoods .collect .carNum {
+  position: absolute;
+  top: 5rpx;
+  right: 10rpx;
+  width: 26rpx;
+  height: 26rpx;
+  line-height: 26rpx;
+  text-align: center;
+  background: #ffc600;
+  -webkit-border-radius: 13rpx;
+          border-radius: 13rpx;
+  font-size: 16rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+}
+.goods .addGoods .buyBtn {
+  width: 260rpx;
+  height: 98rpx;
+  text-align: center;
+  background: #F49B95;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #fff;
+  margin-left: 25rpx;
+  padding-top: 10rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.goods .addGoods .make {
+  width: 260rpx;
+  height: 98rpx;
+  text-align: center;
+  background: -webkit-linear-gradient(60deg, #FD4950, #FF6F60);
+  background: linear-gradient(30deg, #FD4950, #FF6F60);
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #fff;
+  padding-top: 10rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.goods .common {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 22222;
+}
+.goods .common .common_con {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 800rpx;
+  background: white;
+  -webkit-border-radius: 30rpx 30rpx 0px 0px;
+          border-radius: 30rpx 30rpx 0px 0px;
+}
+.goods .common .common_con .close {
+  position: absolute;
+  right: 30rpx;
+  top: 30rpx;
+  color: #999999;
+}
+.goods .common .common_con .common_tit {
+  margin: 50rpx 0;
+  text-align: center;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+}
+.goods .common .common_con .intro {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 26rpx;
+  font-family: Source Han Sans CN;
+  padding: 0 40rpx;
+  margin-bottom: 50rpx;
+}
+.goods .common .common_con .intro .left1 {
+  color: #999999;
+  width: 130rpx;
+}
+.goods .common .common_con .intro .right1 {
+  color: #333333;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.goods .common .common_con1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-height: 530rpx;
+  max-height: 900rpx;
+  overflow-y: auto;
+  padding-bottom: 270rpx;
+  background: white;
+  -webkit-border-radius: 30rpx 30rpx 0px 0px;
+          border-radius: 30rpx 30rpx 0px 0px;
+  z-index: 333;
+}
+.goods .common .common_con1 .close {
+  position: absolute;
+  right: 30rpx;
+  top: 30rpx;
+  color: #999999;
+}
+.goods .common .common_con1 .spacs_img {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  padding: 30rpx 30rpx 0 30rpx;
+  height: 200rpx;
+}
+.goods .common .common_con1 .spacs_img .img {
+  margin-right: 20rpx;
+  width: 200rpx;
+}
+.goods .common .common_con1 .spacs_img .img image {
+  width: 200rpx;
+  height: 200rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.goods .common .common_con1 .spacs_img .sku_price {
+  font-size: 26rpx;
+  font-family: Source Han Sans CN;
+  font-weight: 400;
+  color: #ff1c1c;
+  margin-top: 20rpx;
+}
+.goods .common .common_con1 .spacs_img .sku_price text {
+  font-size: 30rpx;
+}
+.goods .common .common_con1 .spacs_img .choose {
+  font-size: 26rpx;
+  font-family: Source Han Sans CN;
+  font-weight: 300;
+  color: #333333;
+  margin: 20rpx 0;
+}
+.goods .common .common_con1 .spacs_img .rest {
+  font-size: 26rpx;
+  font-family: Source Han Sans CN;
+  font-weight: 300;
+  color: #999999;
+}
+.goods .common .common_con1 .spacs_info {
+  padding: 0 30rpx;
+}
+.goods .common .common_con1 .spacs_info .spacs_tit {
+  font-size: 26rpx;
+  font-family: Source Han Sans CN;
+  font-weight: 300;
+  color: #333333;
+  margin-top: 30rpx;
+}
+.goods .common .common_con1 .spacs_info .sku_options view {
+  padding: 10rpx 20rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  font-size: 26rpx;
+  font-family: Source Han Sans CN;
+  font-weight: 300;
+  color: #333333;
+  display: inline-block;
+  border: 1rpx solid #f5f5f5;
+  margin: 20rpx 20rpx 0 0;
+}
+.goods .common .common_con1 .spacs_info .sku_options .option {
+  background: rgba(253, 99, 94, 0.2);
+  border: 1rpx solid #FD635E;
+}
+.goods .common .common_con1 .sure_num {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+}
+.goods .common .common_con1 .sure_num .buy_num {
+  padding: 0 30rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  border-top: 1rpx solid #f5f5f5;
+  border-bottom: 1rpx solid #f5f5f5;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+}
+.goods .common .common_con1 .sure_num .buy_num .num image {
+  width: 36rpx;
+  height: 36rpx;
+  vertical-align: middle;
+}
+.goods .common .common_con1 .sure_num .buy_num .num text {
+  margin: 0 30rpx;
+}
+.goods .common .common_con1 .sure_num .sure {
+  margin: 30rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  background: #fd635e;
+  -webkit-border-radius: 45rpx;
+          border-radius: 45rpx;
+  font-size: 36rpx;
+  font-family: Source Han Sans CN;
+  font-weight: 300;
+  color: white;
+}
+.goods .commonModel {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+.goods .commonModel .model {
+  width: 630rpx;
+  background: #ffffff;
+  -webkit-border-radius: 20rpx;
+          border-radius: 20rpx;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.goods .commonModel .model .title {
+  padding: 20rpx 50rpx;
+  font-size: 30rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  text-align: center;
+  border-bottom: 2rpx solid #f5f5f5;
+  position: relative;
+}
+.goods .commonModel .model .title .close {
+  width: 80rpx;
+  height: 86rpx;
+  line-height: 60rpx;
+  text-align: center;
+  font-size: 40rpx;
+  color: #333;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.goods .commonModel .model .scroll1 {
+  height: 240rpx;
+  padding-bottom: 30rpx;
+}
+.goods .commonModel .model .scrolll1 {
+  height: 480rpx;
+  padding-bottom: 30rpx;
+}
+.goods .commonModel .model .scroll-Y {
+  height: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.goods .commonModel .model .scroll-Y .demo {
+  height: 120rpx;
+  padding: 0 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-top: 2rpx solid #f5f5f5;
+}
+.goods .commonModel .model .scroll-Y .demo image {
+  width: 68rpx;
+  height: 68rpx;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  margin-top: 10rpx;
+  margin-right: 10rpx;
+}
+.goods .commonModel .model .scroll-Y .demo .time {
+  width: 350rpx;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  margin-right: 10rpx;
+  color: #333333;
+}
+.goods .commonModel .model .scroll-Y .demo .time .name {
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #333333;
+  margin-right: 10rpx;
+}
+.goods .commonModel .model .scroll-Y .demo .btn {
+  width: 140rpx;
+  height: 55rpx;
+  background: #fc4950;
+  -webkit-border-radius: 28px;
+          border-radius: 28px;
+  line-height: 55rpx;
+  text-align: center;
+  font-size: 26rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+}
+.goods .commonModel .model .join_con {
+  padding: 30rpx 0;
+}
+.goods .commonModel .model .join_con .number {
+  font-size: 30rpx;
+  text-align: center;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #333333;
+}
+.goods .commonModel .model .join_con .photo {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  height: 120rpx;
+  line-height: 120rpx;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin: 60rpx 0;
+}
+.goods .commonModel .model .join_con .photo .imgs {
+  width: 120rpx;
+  height: 120rpx;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  position: relative;
+}
+.goods .commonModel .model .join_con .photo .imgs image {
+  width: 100%;
+  height: 100%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+}
+.goods .commonModel .model .join_con .photo .imgs .tip {
+  position: absolute;
+  top: 10rpx;
+  left: -20rpx;
+  width: 72rpx;
+  height: 30rpx;
+  line-height: 30rpx;
+  text-align: center;
+  background: #fc4950;
+  -webkit-border-radius: 15rpx;
+          border-radius: 15rpx;
+  font-size: 22rpx;
+  font-family: PingFang SC;
+  font-weight: 400;
+  color: #ffffff;
+}
+.goods .commonModel .model .join_con .photo .dian {
+  width: 32rpx;
+  height: 6rpx;
+  margin: 0 40rpx;
+}
+.goods .commonModel .model .join_con .photo .dian image {
+  width: 100%;
+  height: 100%;
+}
+.goods .commonModel .model .join_con .join_btn {
+  margin: 20rpx auto 0;
+  width: 500rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: center;
+  background: #fc4950;
+  -webkit-border-radius: 45rpx;
+          border-radius: 45rpx;
+  font-size: 36rpx;
+  font-family: PingFang SC;
+  font-weight: 500;
+  color: #ffffff;
+}
+

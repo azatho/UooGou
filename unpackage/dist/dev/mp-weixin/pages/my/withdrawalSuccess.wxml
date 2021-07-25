@@ -1,0 +1,1 @@
+<view><view class="one"><image src="../../static/sure.png"></image><view>{{"提现成功"+money+"元"}}</view></view><view data-event-opts="{{[['tap',[['examine']]]]}}" class="check" bindtap="__e">返回代理中心</view></view>

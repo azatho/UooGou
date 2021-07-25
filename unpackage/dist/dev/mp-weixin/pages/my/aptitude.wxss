@@ -1,0 +1,162 @@
+
+page {
+	background-color: #F5F5F5;
+}
+.bgc {
+	background-color: #FFFFFF;
+}
+.radio {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: #333333;
+	border-bottom: 1rpx solid #F5F5F5;
+	padding: 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;	
+	background-color: #FFFFFF;
+}
+.radio input {
+	width: 510rpx;
+	height: 30rpx;
+	line-height: 30rpx;
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: #333333;
+	text-align: right;
+}
+.hang {
+	font-size: 26rpx;
+	font-family: HiraginoSansGB;
+	font-weight: normal;
+	color: #222222;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	border-top: 1rpx solid #F5F5F5;
+	padding: 30rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	background-color: #FFFFFF;
+}
+.hang .phopphoto {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+}
+.hang .phopphoto .txt1 {
+	font-family: PingFang SC;
+	font-weight: 400;
+}
+.hang .phopphoto .txt {
+	font-size: 24rpx;
+	color: #999999;
+	padding-top: 20rpx;
+}
+.hang image {
+	width: 130rpx;
+	height: 130rpx;
+}
+.addimg{
+	background-color: #FFFFFF;
+	padding: 30rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+}
+.addimg image{
+	width: 120rpx;
+	height: 120rpx;
+	margin-bottom: 20rpx;
+}
+.addimg	.cha{
+	width: 40rpx;
+	height: 40rpx;
+	position: absolute;
+	top: -20rpx;
+	right: 20rpx;
+}
+.addimg .text {
+	font-size: 26rpx;
+	color: #333333;
+}
+.addimg .text1 {
+	font-size: 22rpx;
+	color: #999999;
+	margin: 30rpx 0;
+}
+.time {
+	background-color: #FFFFFF;
+	padding: 30rpx 30rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	font-size: 26rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.time .lang image {
+	width: 36rpx;
+	height: 36rpx;
+	vertical-align: middle;
+	margin-right: 5rpx;
+	padding-left: 40rpx;
+}
+.time .shot image {
+	width: 26rpx;
+	height: 26rpx;
+	vertical-align: middle;
+	margin-left: 15rpx;
+}
+.butt {
+	width: 690rpx;
+	height: 90rpx;
+	background: #FD635E;
+	-webkit-border-radius: 45rpx;
+	        border-radius: 45rpx;
+	line-height: 90rpx;
+	text-align: center;
+	font-size: 36rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #FFFFFF;
+	margin: 30rpx;
+}
+.xieyi {
+	font-size: 24rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	text-align: center;
+	margin-bottom: 20rpx;
+	margin-top: 100rpx;
+}
+.xieyi image {
+	width: 32rpx;
+	height: 32rpx;
+	vertical-align: middle;
+	margin-right: 10rpx;
+}
+

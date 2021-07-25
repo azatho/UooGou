@@ -1,0 +1,1052 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"onReachBottomDistance":500
+			}
+		},
+		{
+			"path": "pages/index/search",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/chooseAddress",
+			"style": {
+				"navigationBarTitleText": "选择地址"
+			}
+		},
+		{
+			"path": "pages/index/news",
+			"style": {
+				"navigationBarTitleText": "新闻列表"
+			}
+		},
+		{
+			"path": "pages/index/searchList",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/seckill",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/nearShop",
+			"style": {
+				"navigationBarTitleText": "附近门店"
+			}
+		},
+		{
+			"path": "pages/index/classifyShop",
+			"style": {}
+		},
+		{
+			"path": "pages/index/makeGroup",
+			"style": {
+				"navigationBarTitleText": "拼团享优惠"
+			}
+		},
+		{
+			"path": "pages/car/car",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/aboutUs",
+			"style": {
+				"navigationBarTitleText": "关于我们"
+			}
+		},
+		{
+			"path": "pages/my/selectAddress",
+			"style": {
+				"navigationBarTitleText": "选择地址"
+			}
+		},
+		{
+			"path": "pages/my/userInfo",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		},
+		{
+			"path": "pages/my/getName",
+			"style": {
+				"navigationBarTitleText": "修改昵称"
+			}
+		},
+		{
+			"path": "pages/my/discounts",
+			"style": {
+				"navigationBarTitleText": "优惠券"
+			}
+		},
+		{
+			"path": "pages/my/shopEnter",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/browsing",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/site",
+			"style": {
+				"navigationBarTitleText": "收货地址"
+			}
+		},
+		{
+			"path": "pages/my/addsite",
+			"style": {
+				"navigationBarTitleText": "新增地址"
+			}
+		},
+		{
+			"path": "pages/common/shopHome",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/common/goodsDetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/common/searchGoods",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/common/comment",
+			"style": {
+				"navigationBarTitleText": "全部评价"
+			}
+		},
+		{
+			"path": "pages/common/confirmOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单"
+			}
+		},
+		{
+			"path": "pages/common/successPay",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		},
+		{
+			"path": "pages/common/helpFriends",
+			"style": {
+				"navigationBarTitleText": "帮好友拼团"
+			}
+		},
+		{
+			"path": "pages/common/groupSuccess",
+			"style": {
+				"navigationBarTitleText": "帮好友拼团"
+			}
+		},
+		{
+			"path": "pages/common/ptOrderList",
+			"style": {
+				"navigationBarTitleText": "拼团列表"
+			}
+		},
+		{
+			"path": "pages/common/ptOrderDetail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/common/common",
+			"style": {}
+		},
+		{
+			"path": "pages/common/refund",
+			"style": {
+				"navigationBarTitleText": "申请退款"
+			}
+		},
+		{
+			"path": "pages/common/afterSale",
+			"style": {
+				"navigationBarTitleText": "申请售后"
+			}
+		},
+		{
+			"path": "pages/my/afterSaleList",
+			"style": {
+				"navigationBarTitleText": "售后列表"
+			}
+		},
+		{
+			"path": "pages/my/refundDetail",
+			"style": {
+				"navigationBarTitleText": "退货详情"
+			}
+		},
+		{
+			"path": "pages/my/exchangeDetail",
+			"style": {
+				"navigationBarTitleText": "换货详情"
+			}
+		},
+		{
+			"path": "pages/my/login",
+			"style": {
+				"navigationBarTitleText": "公众号授权"
+			}
+		},
+		{
+			"path": "pages/my/collectlist",
+			"style": {
+				"navigationBarTitleText": "收藏商品"
+			}
+		},
+		{
+			"path": "pages/my/shopcollect",
+			"style": {
+				"navigationBarTitleText": "收藏店铺"
+			}
+		},
+		{
+			"path": "pages/my/critic",
+			"style": {
+				"navigationBarTitleText": "我的评论"
+			}
+		},
+		{
+			"path": "pages/my/problem",
+			"style": {
+				"navigationBarTitleText": "常见问题"
+			}
+		},
+		{
+			"path": "pages/my/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		},
+		{
+			"path": "pages/my/feedbackDetail",
+			"style": {
+				"navigationBarTitleText": "反馈详情"
+			}
+		},
+		{
+			"path": "pages/my/feedbackList",
+			"style": {
+				"navigationBarTitleText": "反馈记录"
+			}
+		},
+		{
+			"path": "pages/my/applyposition",
+			"style": {
+				"navigationBarTitleText": "申请管理"
+			}
+		},
+		{
+			"path": "pages/group/goodsDetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/group/seckillDetail",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/agencyAudit",
+			"style": {
+				"navigationBarTitleText": "审核进度"
+			}
+		},
+		{
+			"path": "pages/my/management",
+			"style": {}
+		},
+		{
+			"path": "pages/my/balancelist",
+			"style": {
+				"navigationBarTitleText": "余额明细"
+			}
+		},
+		{
+			"path": "pages/my/withdeposit",
+			"style": {
+				"navigationBarTitleText": "提现账户"
+			}
+		},
+		{
+			"path": "pages/my/bankCard",
+			"style": {
+				"navigationBarTitleText": "绑定银行卡"
+			}
+		},
+		{
+			"path": "pages/my/withdrawal",
+			"style": {
+				"navigationBarTitleText": "提现"
+			}
+		},
+		{
+			"path": "pages/my/withdrawalSuccess",
+			"style": {
+				"navigationBarTitleText": "提现成功"
+			}
+		},
+		{
+			"path": "pages/my/registerShar",
+			"style": {
+				"navigationBarTitleText": "邀请好友"
+			}
+		},
+		{
+			"path": "pages/my/shearlog",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/Nocommunity",
+			"style": {
+				"navigationBarTitleText": "商品不存在"
+			}
+		},
+		{
+			"path": "pages/order/particulars",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/order/publishComment",
+			"style": {
+				"navigationBarTitleText": "发布评价"
+			}
+		},
+		{
+			"path": "pages/order/logistics",
+			"style": {
+				"navigationBarTitleText": "查看物流"
+			}
+		},
+		{
+			"path": "pages/my/information",
+			"style": {
+				"navigationBarTitleText": "消息中心"
+			}
+		},
+		{
+			"path": "pages/my/help",
+			"style": {
+				"navigationBarTitleText": "帮助中心"
+			}
+		},
+		{
+			"path": "pages/my/common",
+			"style": {}
+		},
+		{
+			"path": "pages/my/pushServer",
+			"style": {
+				"navigationBarTitleText": "推送消息设置"
+			}
+		},
+		{
+			"path": "pages/my/NoShop",
+			"style": {
+				"navigationBarTitleText": "店铺不存在"
+			}
+		},
+		{
+			"path": "pages/my/boundPhoe",
+			"style": {
+				"navigationBarTitleText": "绑定手机号"
+			}
+		},
+		{
+			"path": "pages/my/amendPhone",
+			"style": {
+				"navigationBarTitleText": "修改手机号"
+			}
+		},
+		{
+			"path": "pages/my/moneyAudit",
+			"style": {
+				"navigationBarTitleText": "提现结果"
+			}
+		},
+		{
+			"path": "pages/my/logistics1",
+			"style": {}
+		},
+		{
+			"path": "pages/my/agreement",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/magreement",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/siteSearch",
+			"style": {
+				"navigationBarTitleText": "选择地址",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/massage",
+			"style": {
+				"navigationBarTitleText": "订单消息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/messages",
+			"style": {
+				"navigationBarTitleText": "系统消息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/messages1",
+			"style": {
+				"navigationBarTitleText": "提现消息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/commercialenter",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/aptitude",
+			"style": {
+				"navigationBarTitleText": "资质信息",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/classifyShop1",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/shangjiaOrder/shangjiaOrder",
+			"style": {
+				"navigationBarTitleText": "订单管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/shangjiaOrder/orderDetial",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/supplierEnter",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/progressEnter",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/supplierIndex",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/building",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/pointsMall/index",
+			"style": {
+				"navigationBarTitleText": "积分中心",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/common/confirmPay",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/pointsMall/exchangeshop",
+			"style": {
+				"navigationBarTitleText": "积分商城",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/pointsMall/exchangesRecord",
+			"style": {
+				"navigationBarTitleText": "兑换记录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/pointsMall/IntegralTransferred",
+			"style": {
+				"navigationBarTitleText": "积分转赠",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/pointsMall/pointsDetails",
+			"style": {
+				"navigationBarTitleText": "积分明细记录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/pointsMall/hotgoods",
+			"style": {
+				"navigationBarTitleText": "爆款商品",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/pointsMall/paySuccess",
+			"style": {
+				"navigationBarTitleText": "转赠成功",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/pointsMall/myRecord",
+			"style": {
+				"navigationBarTitleText": "兑换订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/pointsMall/exchangeGoodsDetail",
+			"style": {
+				"navigationBarTitleText": "积分兑换商品详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/pointsMall/confirmOrder",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/pointsMall/payOrder",
+			"style": {
+				"navigationBarTitleText": "确认支付",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/salesPoints",
+			"style": {
+				"navigationBarTitleText": "销售积分记录",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/addproduct/mapSelect",
+			"style": {
+				"navigationBarTitleText": "选择地址",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/addproduct/addproduct",
+			"style": {
+				"navigationBarTitleText": "添加商品",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/addproduct/goodsParams",
+			"style": {
+				"navigationBarTitleText": "商品参数",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/addproduct/classfiy",
+			"style": {
+				"navigationBarTitleText": "商品参数",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/addproduct/shareAdd",
+			"style": {
+				"navigationBarTitleText": "共享产品库",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/addproduct/supplierGoodsDetail",
+			"style": {
+				"navigationBarTitleText": "商品详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/addproduct/addSucess",
+			"style": {
+				"navigationBarTitleText": "添加成功",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/addproduct/goodsGl",
+			"style": {
+				"navigationBarTitleText": "商品管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/pointsMall/pointShopOrder",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/pointsMall/commodityClassification",
+			"style": {
+				"navigationBarTitleText": "商品分类",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/supplyChain/index",
+			"style": {
+				"navigationBarTitleText": "供应链中心",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/supplyChain/nearSupplyShop",
+			"style": {
+				"navigationBarTitleText": "附近供应商",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/registershareList",
+			"style": {
+				"navigationBarTitleText": "团队列表",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/supplierEnter",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/progressEnter",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/supplierIndex",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/toBeSettled",
+			"style": {
+				"navigationBarTitleText": "待结算金额",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/myCash",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/cash",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/supplierOrder",
+			"style": {
+				"navigationBarTitleText": "订单管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/shareAdd",
+			"style": {
+				"navigationBarTitleText": "共享产品库",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/selfAdd",
+			"style": {
+				"navigationBarTitleText": "添加商品",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/supplierGoodsDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/addSucess",
+			"style": {
+				"navigationBarTitleText": "添加成功",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/addproduct",
+			"style": {
+				"navigationBarTitleText": "添加商品",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/goodsManage",
+			"style": {
+				"navigationBarTitleText": "商品管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/goodsParams",
+			"style": {
+				"navigationBarTitleText": "商品参数",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/supplierGoodsDetail",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/addSucess",
+			"style": {
+				"navigationBarTitleText": "添加成功",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/goodsManage",
+			"style": {
+				"navigationBarTitleText": "商品管理",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/my/supplier/goodsParams",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+	    ,{
+            "path" : "pages/my/addproduct/jinhuojilu",
+            "style" :                                                                                    
+            { 
+                "navigationBarTitleText": "进货记录",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/addproduct/ddxq",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }	 
+		,{
+            "path" : "pages/my/addproduct/myCash",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的余额",
+                "enablePullDownRefresh": false
+            }
+            
+        }	 
+		,{
+            "path" : "pages/my/addproduct/cash",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的余额",
+                "enablePullDownRefresh": false
+            }
+            
+        }	
+        ,{
+            "path" : "pages/supplyChain/supplyParticulars",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/supplyChain/supplyConfirmOrder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "确认订单",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/supplyChain/supplyConfirmPay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        } 
+        ,{
+            "path" : "pages/my/addproduct/editproduct",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑商品",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/addproduct/editSuccess",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑成功",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/supplier/freight",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+     ,{
+            "path" : "pages/my/supplier/editproduct",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑商品",
+                "enablePullDownRefresh": false
+            }
+            
+        }        ,{
+            "path" : "pages/my/addproduct/withdrawal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+		,{
+		    "path" : "pages/my/addproduct/withdrawalSuccess",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "提现成功",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+        ,{
+            "path" : "pages/my/supplier/orderDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "订单详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/supplier/zizufh",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "自主配送",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/supplier/kuaidi",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "快递发货",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/supplier/wuliu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/addproduct/wuliu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "查看物流",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/pointsMall/successPay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "支付成功",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/supplier/editSuccess",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "编辑成功",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/supplyChain/successPay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "支付成功",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"color": "#9A9A9A",
+		"selectedColor": "#f6281b",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "./static/home.png",
+				"selectedIconPath": "./static/home_show.png"
+			},
+			{
+				"text": "购物车",
+				"pagePath": "pages/car/car",
+				"iconPath": "./static/car.png",
+				"selectedIconPath": "./static/car_show.png"
+			},
+			{
+				"text": "订单",
+				"pagePath": "pages/order/order",
+				"iconPath": "./static/order.png",
+				"selectedIconPath": "./static/order_show.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/my/my",
+				"iconPath": "./static/mine.png",
+				"selectedIconPath": "./static/mine_show.png"
+			}
+		]
+	}
+}

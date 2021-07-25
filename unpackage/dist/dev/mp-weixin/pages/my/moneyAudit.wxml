@@ -1,0 +1,1 @@
+<view><uni-steps vue-id="5bbf0311-1" options="{{options}}" direction="column" active="{{active}}" bind:__l="__l"></uni-steps><view data-event-opts="{{[['tap',[['resubmit',['$event']]]]]}}" class="btn" bindtap="__e">确认</view></view>

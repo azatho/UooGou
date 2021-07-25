@@ -1,0 +1,128 @@
+
+.shearbgc {
+	width: 100%;
+	height: 1334rpx;
+	background: url(/static/shear.png)no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.shearbgc .bgc1 {
+	width: 558rpx;
+	height: 183rpx;
+	margin: 100rpx 100rpx 0;
+}
+.shearbgc .bgc2 {
+	width: 540rpx;
+	height: 68rpx;
+	margin: 20rpx 100rpx 0;
+}
+.shearbgc .kuang {
+	width: 689rpx;
+	height: 720rpx;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0rpx 2rpx 24rpx 0rpx rgba(0, 0, 0, 0.15);
+	        box-shadow: 0rpx 2rpx 24rpx 0rpx rgba(0, 0, 0, 0.15);
+	-webkit-border-radius: 15rpx;
+	        border-radius: 15rpx;
+	position: absolute;
+	left: 30rpx;
+	bottom: 70rpx;
+}
+.kuang .one {
+	position: relative;
+	margin: 50rpx 90rpx 0;
+}
+.kuang image{
+	width: 100%;
+	height: 100%;
+	vertical-align: middle;
+}
+.kuang .one .img1 {
+	width: 34rpx;
+	height: 44rpx;
+}
+.kuang .one .img2 {
+	width: 36rpx;
+	height: 38rpx;
+}
+.kuang .one .img3 {
+	width: 44rpx;
+	height: 40rpx;
+}
+.kuang .one input {
+	width: 500rpx;
+	height: 90rpx;
+	line-height: 90rpx;
+	background: #FFFFFF;
+	border: 1rpx solid #CCCCCC;
+	-webkit-border-radius: 45rpx;
+	        border-radius: 45rpx;
+	padding-left: 100rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.kuang .one image {
+	position: absolute;
+	left: 30rpx;
+	top: 24rpx;
+}
+.kuang .one .txt {
+	position: absolute;
+	right: 30rpx;
+	top: 24rpx;
+	font-size: 24rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #FD635E;
+}
+.kuang .phone {
+	margin-left: 100rpx;
+	margin-top: 20rpx;
+	font-size: 30rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: #FD635E;
+}
+.kuang .phone image{
+	width: 80rpx;
+	height: 80rpx;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+	margin-right: 20rpx;
+}
+.xieyi {
+	font-size: 24rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: #000000;
+	text-align: center;
+	margin-bottom: 20rpx;
+	margin-top: 30rpx;
+}
+.xieyi image {
+	width: 32rpx;
+	height: 32rpx;
+	vertical-align: middle;
+	margin-right: 10rpx;
+}
+.next {
+	line-height: 90rpx;
+	text-align: center;
+	font-size: 36rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #FFFFFF;
+	position: relative;
+}
+.next .txt {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+}
+.next image {
+	width: 500rpx;
+	height: 90rpx;
+}
+

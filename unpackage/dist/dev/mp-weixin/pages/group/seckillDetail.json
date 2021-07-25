@@ -1,0 +1,7 @@
+{
+  "navigationStyle": "custom",
+  "usingComponents": {
+    "countdown-timer": "/components/countdown-timer/countdown-timer",
+    "uni-icons": "/components/uni-icons/uni-icons"
+  }
+}

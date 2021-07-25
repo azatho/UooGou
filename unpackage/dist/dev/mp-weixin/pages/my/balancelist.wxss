@@ -1,0 +1,84 @@
+
+page{
+	position: relative;
+}
+.title {
+	position: fixed;
+	top: 88rpx;
+	left: 0;
+	background-color: #F5F5F5;
+	height: 80rpx;
+	width: 100%;
+	line-height: 80rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	padding: 0 75rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.txt1 {
+	color: #FC4950;
+	border-bottom: 4rpx solid #FC4950;
+}
+/* 列表 */
+.list {
+	width: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: bold;
+	color: #333333;
+	padding: 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.list .left{
+	white-space: nowrap;
+}
+.list .time {
+		font-size: 22rpx;
+		font-weight: 400;
+		color: #999999;
+		margin-top: 10rpx;
+}
+.list .right {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	margin-top: 10rpx;
+	font-size: 28rpx;
+	margin-left: 20rpx;
+}
+.list .right1 {
+	color: #FC4950;
+	margin-top: 10rpx;
+	font-size: 28rpx;
+}
+.text1{
+	font-size: 16rpx;
+	color: #FC4950;
+	font-weight: 400;
+}
+.text2{
+	font-size: 16rpx;
+	color: #999999;
+	font-weight: 400;
+}
+.text3{
+	font-size: 16rpx;
+	color: #23CD57;
+	font-weight: 400;
+}
+

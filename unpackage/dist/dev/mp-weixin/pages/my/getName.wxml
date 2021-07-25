@@ -1,0 +1,1 @@
+<view><view class="userlist"><view>昵称:</view><view style="flex:1;"><input type="text" maxlength="8" placeholder="请输入昵称~" data-event-opts="{{[['input',[['getName',['$event']]]]]}}" value="{{name}}" bindinput="__e"/></view></view><view data-event-opts="{{[['tap',[['confirm',['$event']]]]]}}" class="btn" bindtap="__e">确定</view></view>

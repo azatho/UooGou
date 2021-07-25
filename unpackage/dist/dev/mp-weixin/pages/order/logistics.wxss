@@ -1,0 +1,76 @@
+
+page{
+	height: 100%;
+	position: relative;
+}
+.bgc {
+	width: 749rpx;
+	height: 765rpx;
+	background-color: #F9E6E6;
+}
+.bgc image {
+	width: 747rpx;
+	height: 422rpx;
+	margin-top: 30rpx;
+}
+.plan {
+	width: 750rpx;
+	height: 743rpx;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0rpx 5rpx 24rpx 0rpx rgba(6, 0, 1, 0.1);
+	        box-shadow: 0rpx 5rpx 24rpx 0rpx rgba(6, 0, 1, 0.1);
+	-webkit-border-radius: 50rpx 50rpx 0rpx 0rpx;
+	        border-radius: 50rpx 50rpx 0rpx 0rpx;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 220rpx 100rpx 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.plan image {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+	width: 512rpx;
+	height: 306rpx;
+}
+.plan .btn {
+	width: 320rpx;
+	height: 95rpx;
+	background: #FC4950;
+	-webkit-border-radius: 48rpx;
+	        border-radius: 48rpx;
+	font-size: 36rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+	line-height: 95rpx;
+	text-align: center;
+	margin: 100rpx auto;
+}
+._a{
+	text-decoration: none;
+}
+._a:visited{
+	text-decoration: none;
+}
+.btn1 {
+	display: inline-block;
+	width: 320rpx;
+	height: 95rpx;
+	background: #FC4950;
+	-webkit-border-radius: 48rpx;
+	        border-radius: 48rpx;
+	font-size: 36rpx;
+	font-family: Source Han Sans CN;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 95rpx;
+	margin-left: 50rpx;
+	margin-top: 30rpx;
+}
+

@@ -1,0 +1,148 @@
+
+page{
+	background-color: #f8f8f8;
+}
+.cardMsg{
+	width: 550rpx;
+	height: 70rpx;
+	background: #555555;
+	-webkit-border-radius: 30rpx 30rpx 0rpx 0rpx;
+	        border-radius: 30rpx 30rpx 0rpx 0rpx;
+	margin: 102rpx 54rpx 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	padding: 45rpx;
+}
+.card_img{
+	width: 78rpx;
+	height: 78rpx;
+}
+.card_img image{
+	width: 78rpx;
+	height: 78rpx;
+}
+.card_msg{
+	width: 430rpx;
+	padding-left: 20rpx;
+	color: #fff;
+}
+.card_num{
+	font-size: 36rpx;
+}
+.card_name{
+	font-size: 24rpx;
+	margin-top: 10rpx;
+}
+.card_choose{
+	width: 40rpx;
+	height: 40rpx;
+}
+.card_choose image{
+	width: 40rpx;
+	height: 40rpx;
+}
+.money{
+	width: 100%;
+	padding: 30rpx 30rpx 0 30rpx;
+	height: 285rpx;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0px 5rpx 7rpx 0px rgba(0, 0, 0, 0.15);
+	        box-shadow: 0px 5rpx 7rpx 0px rgba(0, 0, 0, 0.15);
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+.word{
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: #333333;
+}
+.ipt{
+	position: relative;
+	padding: 0 80rpx 0 40rpx;
+	margin-top: 40rpx;
+	border-bottom: 1rpx solid #DFDFDF;
+}
+.money_mark{
+	position: absolute;
+	bottom: 10rpx;
+	left: 0;
+	font-size: 36rpx;
+	font-family: HiraginoSansGB;
+	font-weight: bold;
+	color: #212121;
+}
+.ipt input{
+	/* border-bottom: 1rpx solid #DFDFDF; */
+	height: 80rpx;
+	line-height: 80rpx;
+}
+.ipt .current{
+	color: #333;
+	font-size: 64rpx;
+	font-weight: bold;
+}
+.del_money{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 80rpx;
+	height: 80rpx;
+}
+.del_money image{
+	width: 30rpx;
+	height: 30rpx;
+	margin: 25rpx;
+}
+.left_monry{
+	height: 90rpx;
+	line-height: 90rpx;
+	font-size: 24rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: #999999;
+	position: relative;
+}
+.all_money{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 90rpx;
+	line-height: 90rpx;
+	padding-left: 40rpx;
+	color: #FC4950;
+	font-size: 24rpx;
+}
+.rule{
+	padding: 40rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	font-size: 24rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: #999999;
+}
+.rule_right{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	line-height: 40rpx;
+}
+.sure{
+	width: 690rpx;
+	height: 90rpx;
+	background: #FC4950;
+	-webkit-border-radius: 45rpx;
+	        border-radius: 45rpx;
+	margin: 50rpx 30rpx 0;
+	line-height: 90rpx;
+	text-align: center;
+	color: #fff;
+	font-size: 30rpx;
+}
+

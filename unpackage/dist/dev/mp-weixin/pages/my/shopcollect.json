@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "收藏店铺",
+  "usingComponents": {
+    "mark-slide-list": "/components/mark-slide-list/mark-slide-list-shop"
+  }
+}

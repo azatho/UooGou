@@ -1,0 +1,29 @@
+
+.one{
+	text-align: center;
+	font-size: 30rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #343434;
+	padding-top: 150rpx;
+}
+.one image {
+	width: 146rpx;
+	height: 185rpx;
+	padding-bottom: 50rpx;
+}
+.check {
+	width: 690rpx;
+	height: 90rpx;
+	background: #FC4950;
+	-webkit-border-radius: 45rpx;
+	        border-radius: 45rpx;
+	line-height: 90rpx;
+	text-align: center;
+	font-size: 30rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #FFFFFF;
+	margin: 50rpx 30rpx;
+}
+

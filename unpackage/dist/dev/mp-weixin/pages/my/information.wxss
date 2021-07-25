@@ -1,0 +1,89 @@
+
+page {
+	background-color: #F5F5F5;
+}
+.hang {
+	border-top: 1rpx solid #F5F5F5;
+	background-color: #FFFFFF;
+	padding: 30rpx;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.hang image {
+	width: 100%;
+	height: 100%;
+}
+.hang .left {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.hang .left .img {
+	width: 64rpx;
+	height: 64rpx;
+	margin-right: 20rpx;
+	position: relative;
+}
+.left .img .imgdw {
+	position: absolute;
+	right: -6rpx;
+	top: -10rpx;
+	width: 28rpx;
+	height: 28rpx;
+}
+.img .imgdw image {
+	width: 28rpx;
+	height: 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
+}
+.img .imgdw .txt5 {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+	font-size: 15rpx;
+	font-family: PingFang SC;
+	font-weight: bold;
+	text-align: center;
+	color: #F8F6F9;
+}
+.hang .left .txt {
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	        flex: 1;
+	font-size: 26rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #333333;
+}
+.left .txt .txt1 {
+	width: 461rpx;
+	font-size: 22rpx;
+	font-family: PingFang SC;
+	font-weight: 400;
+	color: #999999;
+	margin-top: 10rpx;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 1;
+	-webkit-box-orient: vertical;
+}
+.hang .right {
+	font-size: 22rpx;
+	font-family: PingFang SC;
+	font-weight: 500;
+	color: #999999;
+}
+
